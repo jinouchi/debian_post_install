@@ -1,4 +1,4 @@
-# Add repos to /etc/apt/sources.list and update/upgrade (replace “$DISTRO” with correct distro): 
+# Add repos to /etc/apt/sources.list and update/upgrade (change DISTRO to correct distro if needed): 
 
 DISTRO="stretch"
 
@@ -17,7 +17,7 @@ deb http://deb.debian.org/debian $DISTRO-updates main contrib non-free
 deb-src http://deb.debian.org/debian $DISTRO-updates main contrib non-free" >> /etc/apt/sources.list
 
 apt update
-apt upgrade
+apt upgrade -y
 
 # Install sudo:
 apt install sudo -y
