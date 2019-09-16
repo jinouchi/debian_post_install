@@ -20,4 +20,4 @@ apt update
 apt upgrade -y
 
 # Install sudo:
-apt install sudo -y
+apt install sudo git -y
