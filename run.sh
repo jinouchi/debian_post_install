@@ -6,7 +6,7 @@ DISTRO="stretch"
 sed --in-place=".bak" 's/^deb/# deb/g' /etc/apt/sources.list
 
 echo "
-# Begin user added repos: 
+# Begin post-install script added repos: 
 deb http://deb.debian.org/debian $DISTRO main contrib non-free
 deb-src http://deb.debian.org/debian $DISTRO main contrib non-free
 
