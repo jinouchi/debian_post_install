@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Add repos to /etc/apt/sources.list and update/upgrade (change DISTRO to correct distro if needed): 
+# Add repos to /etc/apt/sources.list (change DISTRO to correct distro if needed): 
 
 DISTRO="stretch"
 
